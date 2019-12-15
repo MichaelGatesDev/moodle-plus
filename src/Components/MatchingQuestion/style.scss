@@ -1,0 +1,13 @@
+.question {
+  &.matching {
+    table {
+      border-spacing: 1em;
+      border-collapse: separate;
+      tr{
+        td:last-child {
+          padding-left: 25px;
+         }
+      }
+    }
+  }
+}

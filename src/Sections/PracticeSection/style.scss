@@ -1,0 +1,35 @@
+.question {
+  background-color: darken(#f2f2f2, 5%);
+  padding: 1em;
+  line-height: 1.25em;
+  border-radius: 5px;
+  // width: 800px;
+
+  &:not(:last-child) {
+    margin-bottom: 1em;
+  }
+
+  p.title {
+    font-weight: bold;
+    line-height: 1.5em;
+    padding: 0;
+    .reset {
+      font-weight: normal;
+      float: right;
+    }
+  }
+
+  &:hover,
+  &:focus-within {
+    // outline: 1px solid red;
+    background-color: darken(#f2f2f2, 7%);
+  }
+}
+
+.assessments {
+  @media screen and (max-width: 952px) {
+    width: 100%;
+  }
+  width: 60%;
+  margin: auto;
+}
